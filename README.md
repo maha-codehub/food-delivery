@@ -1,96 +1,95 @@
-# 🍔 TastyBurger Website
+# 🍔 TastyBurger - Food Delivery Website
 
-TastyBurger is a modern and fully responsive burger restaurant website developed using React and Vite.  
-The project is designed with a clean user interface and smooth user experience to showcase delicious burger menus, food promotions, customer reviews, and online ordering sections.
+TastyBurger is a modern and responsive food delivery website built using React and Vite.  
+The project is designed to provide an attractive user interface for showcasing burgers, food offers, customer reviews, and online food ordering sections.
 
-The website includes modern scrolling navigation, sticky header functionality, responsive layouts, animated UI interactions, and mobile-friendly design.  
-It is built as a frontend showcase project to demonstrate React component architecture, responsive web development skills, and UI designing techniques.
+This project demonstrates frontend development skills including responsive design, React component structure, smooth scrolling navigation, reusable UI components, Bootstrap integration, and modern web styling techniques.
 
 ---
 
 # 🚀 Live Demo
 
 🔗 Netlify Deployment:  
-https://your-netlify-link.netlify.app
+https://tastyburger-m.netlify.app/
 
 ---
 
-# 📌 Project Overview
+# 📌 Project Description
 
-TastyBurger is a single-page restaurant website where users can:
+TastyBurger is a single-page restaurant and food delivery website developed as a frontend showcase project.  
+The website includes multiple interactive sections such as:
 
-- Explore burger menus
-- View food promotions
-- Read customer reviews
-- Navigate smoothly through sections
-- Access responsive layouts on all devices
-- Experience modern UI animations
-- Interact with scroll-based effects
+- Hero Banner
+- About Section
+- Food Menu
+- Promotional Offers
+- Online Shop Section
+- Customer Reviews
+- Contact Section
+- Footer Section
 
-The project focuses mainly on frontend development and responsive UI implementation using React.
+The application is fully responsive and optimized for mobile, tablet, and desktop devices.
 
 ---
 
 # ✨ Features
 
-## ✅ Responsive Design
-The website is fully responsive and works smoothly on:
+## ✅ Fully Responsive Design
+Responsive layouts for:
 
-- Mobile Phones
+- Mobile Devices
 - Tablets
 - Laptops
 - Desktop Screens
 
 ---
 
-## ✅ Sticky Navigation Bar
-The navbar becomes sticky while scrolling for better navigation experience.
+## ✅ Sticky Navbar
+Navbar changes style while scrolling for improved navigation experience.
 
 ---
 
 ## ✅ Smooth Scroll Navigation
-Navigation links smoothly scroll to different sections on the same page.
+Users can smoothly navigate between sections using navbar links.
 
 ---
 
-## ✅ Modern UI Design
-Clean layout with attractive typography, spacing, and color combinations.
+## ✅ Modern User Interface
+Clean and modern UI with attractive typography, spacing, and animations.
 
 ---
 
-## ✅ Burger Menu Showcase
-Displays delicious burger items with ratings, prices, and add-to-cart UI.
+## ✅ Reusable React Components
+Project is structured using reusable components and section-based architecture.
 
 ---
 
-## ✅ Promotional Sections
-Includes promotional banners and food offer sections.
+## ✅ Food Menu Showcase
+Displays burger menu items with ratings, prices, and add-to-cart design.
 
 ---
 
-## ✅ Customer Reviews Carousel
-Interactive customer review slider using Bootstrap Carousel.
+## ✅ Promotional Banner Sections
+Special offer banners and promotional sections included.
+
+---
+
+## ✅ Customer Review Carousel
+Interactive customer reviews using Bootstrap Carousel.
 
 ---
 
 ## ✅ Scroll To Top Button
-Floating button allows users to quickly scroll back to the top.
+Floating scroll button appears after scrolling down.
 
 ---
 
 ## ✅ Bootstrap Icons Integration
-Used Bootstrap Icons for social media and UI elements.
+Social media and UI icons implemented using Bootstrap Icons.
 
 ---
 
-## ✅ Mobile Friendly Layout
-Optimized layouts and typography for smaller screens.
-
----
-
-# 🛠️ Tech Stack
-
-The project is built using the following technologies:
+# 🛠️ Technologies Used
 
 - React JS
 - Vite
@@ -103,21 +102,27 @@ The project is built using the following technologies:
 
 ---
 
-# 📂 Folder Structure
+# 📂 Project Structure
 
 ```bash
 src/
 │
 ├── assets/
+│   ├── about/
 │   ├── blog/
-│   ├── hero/
-│   ├── menu/
+│   ├── brands/
 │   ├── footer/
-│   └── logo/
+│   ├── hero/
+│   ├── logo/
+│   ├── menu/
+│   ├── parallax/
+│   ├── promotion/
+│   └── shop/
 │
 ├── components/
-│   ├── Header.jsx
+│   ├── Cards.jsx
 │   ├── Footer.jsx
+│   ├── Header.jsx
 │   └── Layout.jsx
 │
 ├── pages/
@@ -132,8 +137,7 @@ src/
 │
 ├── styles/
 │   ├── HeaderStyle.css
-│   ├── HomeStyle.css
-│   └── FooterStyle.css
+│   └── HomeStyle.css
 │
 ├── App.jsx
 ├── main.jsx
