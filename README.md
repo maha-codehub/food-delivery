@@ -9,15 +9,19 @@ This project demonstrates frontend development skills including responsive desig
 
 # 🚀 Live Demo
 
-🔗 Netlify Deployment:  
-👉 [View Website](https://tastyburger-m.netlify.app/)
+🔗 Netlify Deployment: 
+###  Tasty Burger Website
+👉 [View  Website](https://tastyburger-m.netlify.app/)
 
 
 
 
-customized to a restaurant website
 
-https://delicio-m.netlify.app/
+
+### Customized Restaurant Website
+👉 [View Website](https://delicio-m.netlify.app/)
+
+---
 
 
 ---
